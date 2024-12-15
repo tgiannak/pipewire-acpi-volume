@@ -3,19 +3,19 @@
 pkgname='pipewire-acpi-volume'
 pkgver=1.0.1
 pkgrel=1
-pkgdesc="Control pipewire volume with ACPI events"
+pkgdesc="Control PipeWire volume with ACPI events"
 arch=('any')
 url='https://github.com/tgiannak/pipewire-acpi-volume'
 license=('BSD')
-depends=('sh' 'coreutils' 'findutils' 'socat' 'pamixer' 'acpid' 'pipewire')
+depends=('sh' 'coreutils' 'findutils' 'socat' 'acpid' 'pipewire' 'wireplumber')
 source=("volume-service.sh"
         "volume.sh"
         "pipewire-acpi-volume.service"
         "LICENSE")
-md5sums=('7cf184583f18deb87dc1131b33c49ebc'
-         'b4999d36b055930da098edc7ddce8d67'
-         '22d18fa7ad0a1fd11bb45da0da208ea1'
-         '28a2fecbcf246b2330146ae4a342c345')
+sha256sums=('b64b712616b8b9ca28f5a7990a699d3555425b308b56327d7ac646cb5989f693'
+            '9514ad57081ff9c43e733d460663d3e17d27aef54aad91a97db4eb6bef34f2eb'
+            '07304f401c458ad845441f2d31ed7baaefc180d7227659646cd89cdb769e9b57'
+            '8552b1d6eba9b621b49bf29d26fffe9cbb3f2596836e4613d66abc54bd23a5ff')
 conflicts=('pulseaudio-acpi-volume')
 
 package() {

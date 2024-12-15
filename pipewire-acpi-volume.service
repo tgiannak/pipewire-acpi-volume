@@ -1,5 +1,5 @@
 [Unit]
-Description=Control pipewire volume with ACPI events
+Description=Control PipeWire volume with ACPI events
 Requisite=pipewire.service
 After=pipewire.service
 # Also depends on acpid.service, but because that is a system unit and this is a
