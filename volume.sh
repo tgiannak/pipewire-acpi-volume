@@ -9,7 +9,7 @@ case "$1" in
     button/mute)
         wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
         ;;
-    button/f20)
+    button/micmute)
         wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
         ;;
 esac

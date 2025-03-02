@@ -1,7 +1,7 @@
 # Maintainer: Theophilos Giannakopoulos <theo@abstractnonsense.org>
 
 pkgname='pipewire-acpi-volume'
-pkgver=1.0.1
+pkgver=1.1
 pkgrel=1
 pkgdesc="Control PipeWire volume with ACPI events"
 arch=('any')
@@ -13,7 +13,7 @@ source=("volume-service.sh"
         "pipewire-acpi-volume.service"
         "LICENSE")
 sha256sums=('b64b712616b8b9ca28f5a7990a699d3555425b308b56327d7ac646cb5989f693'
-            '9514ad57081ff9c43e733d460663d3e17d27aef54aad91a97db4eb6bef34f2eb'
+            'd8383703698bae505c4d911b98076c4e39d4c86e9bd298fc1599695eb20ea4db'
             '07304f401c458ad845441f2d31ed7baaefc180d7227659646cd89cdb769e9b57'
             '8552b1d6eba9b621b49bf29d26fffe9cbb3f2596836e4613d66abc54bd23a5ff')
 conflicts=('pulseaudio-acpi-volume')
